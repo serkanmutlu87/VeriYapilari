@@ -86,7 +86,7 @@ public:
     {
         if(ilk==0)  return;
 
-        if(ilk->sonraki==0)
+        if(ilk->sonraki==ilk)
         {
             delete ilk;
             ilk=0;
